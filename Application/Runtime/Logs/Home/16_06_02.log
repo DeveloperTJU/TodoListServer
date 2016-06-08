@@ -1,0 +1,3253 @@
+[ 2016-06-02T09:09:01+08:00 ] 127.0.0.1 /todolist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-06-02T09:09:13+08:00 ] 127.0.0.1 /todolist/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-06-02T09:09:28+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-06-02T09:09:52+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-06-02T09:10:13+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-06-02T09:10:23+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-06-02T09:10:25+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-06-02T09:10:26+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-06-02T09:10:26+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-06-02T09:10:26+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+
+[ 2016-06-02T09:11:54+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-06-02T09:12:10+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-06-02T09:12:20+08:00 ] 127.0.0.1 /todolist/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+ERR: 非法操作:index
+
+[ 2016-06-02T09:12:46+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-06-02T09:13:00+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-06-02T09:14:49+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-06-02T09:14:50+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-06-02T09:14:51+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-06-02T09:14:51+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-06-02T09:14:52+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-06-02T09:14:52+08:00 ] 127.0.0.1 /todolist/Home/User/guid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-06-02T09:51:26+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-06-02T09:52:50+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'admin'
+
+[ 2016-06-02T09:53:14+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-06-02T09:54:15+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-06-02T09:54:21+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2016-06-02T09:54:34+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-06-02T09:54:38+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2016-06-02T09:55:23+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-06-02T09:55:41+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2016-06-02T09:55:58+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-06-02T09:59:19+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-06-02T10:01:26+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2016-06-02T10:01:27+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-06-02T10:01:27+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2016-06-02T10:01:28+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2016-06-02T10:01:28+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-06-02T10:01:28+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-06-02T10:01:29+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004706s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2016-06-02T10:01:29+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-06-02T10:04:20+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-06-02T10:10:05+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-06-02T10:10:44+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php on line 31 and defined D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-06-02T10:11:38+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-06-02T10:11:48+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [4096] Object of class Think\Model could not be converted to string D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 28 行.
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php on line 31 and defined D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-06-02T10:13:41+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0437s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php on line 31 and defined D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2016-06-02T10:14:24+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0043s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php on line 30 and defined D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `userinfo` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-06-02T10:15:05+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php on line 30 and defined D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `userinfo`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-06-02T10:15:32+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php on line 30 and defined D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\todolist\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `userinfo`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-06-02T10:16:48+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-06-02T10:16:56+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-06-02T10:42:27+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2016-06-02T10:42:56+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-06-02T10:42:57+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-06-02T10:42:58+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2016-06-02T10:42:58+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2016-06-02T10:42:58+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2016-06-02T10:42:58+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2016-06-02T10:42:59+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002671s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2016-06-02T10:42:59+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2016-06-02T10:42:59+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexcy&user_nickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-06-02T10:45:19+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-06-02T10:45:45+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-06-02T10:46:35+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2016-06-02T10:46:36+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2016-06-02T10:46:36+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005282s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-06-02T10:46:36+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2016-06-02T10:46:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2016-06-02T10:46:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2016-06-02T10:46:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2016-06-02T10:46:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2016-06-02T10:46:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2016-06-02T10:46:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2016-06-02T10:46:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2016-06-02T10:46:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2016-06-02T10:46:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-06-02T10:46:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2016-06-02T10:46:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-06-02T10:46:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-06-02T10:46:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2016-06-02T10:46:40+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-06-02T10:49:34+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-06-02T10:49:35+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2016-06-02T10:49:35+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2016-06-02T10:49:36+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2016-06-02T10:49:36+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2016-06-02T10:49:36+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2016-06-02T10:49:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001756s ]
+
+[ 2016-06-02T10:49:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2016-06-02T10:49:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2016-06-02T10:49:37+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2016-06-02T10:49:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-06-02T10:49:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2016-06-02T10:49:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2016-06-02T10:49:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2016-06-02T10:49:38+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-06-02T10:49:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002054s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2016-06-02T10:49:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2016-06-02T10:49:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2016-06-02T10:49:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001984s ]
+
+[ 2016-06-02T10:49:39+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001649s ]
+
+[ 2016-06-02T10:49:40+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2016-06-02T10:49:40+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2016-06-02T10:50:18+08:00 ] 127.0.0.1 /todolist/Home/User/readDataBase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '111' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2016-06-02T10:51:57+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_password=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:53:21+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_password=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:54:13+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_password=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:54:15+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_password=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:54:41+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:00+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:01+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:01+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:18+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:19+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:19+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:19+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:19+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:20+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:40+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:56:44+08:00 ] 127.0.0.1 /todolist/Home/User/SingUp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+ERR: 非法操作:SingUp
+
+[ 2016-06-02T10:57:12+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Undefined variable: result D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-06-02T10:57:21+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-06-02T10:57:52+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-02T10:57:53+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-06-02T10:58:54+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-06-02T10:58:55+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-02T10:58:56+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-06-02T10:58:56+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-06-02T10:58:56+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-06-02T10:58:57+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-06-02T10:58:57+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-06-02T10:58:57+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-06-02T10:58:57+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-06-02T10:58:58+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-02T10:59:23+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: userinfo D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 57 行.
+
+[ 2016-06-02T11:01:00+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 53 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('4AB7D4EE-0397-A34F-5499-DEE23CBDCB86',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('4AB7D4EE-0397-A34F-5499-DEE23CBDCB86',NULL,'memeda')
+
+[ 2016-06-02T11:01:32+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 56 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('A8EDC4A8-91F5-F9C2-755C-7CBEC3313BE4',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('A8EDC4A8-91F5-F9C2-755C-7CBEC3313BE4',NULL,'memeda')
+
+[ 2016-06-02T11:01:59+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 56 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('9681BF2D-34B9-1C5C-EA26-416339DFB4A4',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('9681BF2D-34B9-1C5C-EA26-416339DFB4A4',NULL,'memeda')
+
+[ 2016-06-02T11:03:03+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=111&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '111' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-06-02T11:03:36+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=121&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 56 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('07B47B0E-3390-600F-154A-7C591DA9DD51',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('07B47B0E-3390-600F-154A-7C591DA9DD51',NULL,'memeda')
+
+[ 2016-06-02T11:04:36+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=121&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 56 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('E25D484E-0CBB-EE09-D696-C655B9963B55',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('E25D484E-0CBB-EE09-D696-C655B9963B55',NULL,'memeda')
+
+[ 2016-06-02T11:06:23+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=121&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 56 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('0A767990-C0B5-725C-5235-69F43ED5BB9C',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('0A767990-C0B5-725C-5235-69F43ED5BB9C',NULL,'memeda')
+
+[ 2016-06-02T11:07:08+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=121&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 47 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 50 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('AF00A3E2-CF8B-8CFC-E5FC-377B89E1E159',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('AF00A3E2-CF8B-8CFC-E5FC-377B89E1E159',NULL,'memeda')
+
+[ 2016-06-02T11:07:17+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=121&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: phonenumber D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 47 行.
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('774A46B7-6412-E741-CFB4-3B85E3CAE137',NULL,'memeda')
+ERR: 1048:Column 'phonenumber' cannot be null
+ [ SQL语句 ] : INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('774A46B7-6412-E741-CFB4-3B85E3CAE137',NULL,'memeda')
+
+[ 2016-06-02T11:08:35+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=121&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`nickname`) VALUES ('4E834610-279E-E3BF-4459-46B0BB2BD797','121','memeda') [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-06-02T11:09:39+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=121&user_psw=12345&user_nickname=memeda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('EEB20FDE-71E1-8809-0264-2F8FEF2AE979','121','12345','memeda') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002564s ]
+
+[ 2016-06-02T11:23:31+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=12345&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+
+[ 2016-06-02T11:24:33+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=12345&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0040s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '12345' [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 71 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2016-06-02T11:24:45+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=12&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0037s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '12' [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 71 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2016-06-02T11:25:15+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=12&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '12' [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [2] Illegal string offset 'isSuccess' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-06-02T11:25:36+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=12&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '12' [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-06-02T11:36:42+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=12&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '12' [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-06-02T11:36:50+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8EF2AE979&user_oldPassword=12&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0034s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8EF2AE979' AND `password` = '12' [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-06-02T11:36:55+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=12&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0033s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '12' [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-06-02T11:37:01+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=123&user_newPassword=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0041s ]
+SQL: UPDATE `userinfo` SET `password`='123' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '123' [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-06-02T11:37:24+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=123&user_newPassword=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0040s ]
+SQL: UPDATE `userinfo` SET `password`='11111' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '123' [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-06-02T11:37:40+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_oldPassword=13&user_newPassword=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0039s ]
+SQL: UPDATE `userinfo` SET `password`='11111' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '13' [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 75 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-06-02T11:39:40+08:00 ] 127.0.0.1 /todolist/Home/User/ChangePassword?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_newNickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0037s ]
+SQL: UPDATE `userinfo` SET `password`='' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' AND `password` = '' [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-06-02T11:40:24+08:00 ] 127.0.0.1 /todolist/Home/User/ChangeNickname?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_newNickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-06-02T11:40:33+08:00 ] 127.0.0.1 /todolist/Home/User/ChangeNickname?UID=EEB20FDE-71E1-8809-0264-2F8FEF2AE979&user_newNickname=heheda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: UPDATE `userinfo` SET `nickname`='heheda' WHERE `uid` = 'EEB20FDE-71E1-8809-0264-2F8FEF2AE979' [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant result - assumed 'result' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-06-02T11:52:08+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `password` = '11111'  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2016-06-02T11:52:57+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-06-02T11:53:38+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-06-02T11:53:49+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-06-02T11:54:01+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2016-06-02T11:54:14+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2016-06-02T11:54:22+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-06-02T11:54:51+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2016-06-02T11:55:54+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-06-02T11:57:47+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-06-02T11:57:48+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111'  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2016-06-02T11:58:20+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '1111'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-06-02T11:58:28+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-06-02T11:58:54+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-06-02T12:44:12+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant ans - assumed 'ans' D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-06-02T12:45:38+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-06-02T12:45:49+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0007s ]
+NOTIC: [2] count() expects at least 1 parameter, 0 given D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-06-02T12:46:04+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0003s ]
+NOTIC: [2] count() expects at least 1 parameter, 0 given D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-06-02T12:46:19+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0005s ]
+NOTIC: [2] count() expects at least 1 parameter, 0 given D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2016-06-02T12:46:35+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111'  [ RunTime:0.0007s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-06-02T12:48:01+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=11&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '11' AND `password` = '11111' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2016-06-02T12:48:11+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-06-02T12:48:32+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-06-02T12:49:34+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=11111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '11111' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2016-06-02T12:49:47+08:00 ] 127.0.0.1 /todolist/Home/User/Login?user_phoneNumber=121&user_psw=1111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '121' AND `password` = '1111' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-06-02T14:17:21+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-06-02T14:19:12+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+
+[ 2016-06-02T14:19:39+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-06-02T14:19:42+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+
+[ 2016-06-02T14:20:10+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 116 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('7917269B-C74F-4C12-E080-5AC0A248364F','18222773726','xuexuexue','helloworld') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-06-02T14:20:38+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2016-06-02T14:20:40+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2016-06-02T14:20:53+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-06-02T14:20:55+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2016-06-02T14:21:36+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-06-02T14:21:54+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-06-02T14:22:26+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 117 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('CC4665EF-7B63-F173-54A9-02F0E4AA9AC1','18222773726','xuexuexue','helloworld') [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2016-06-02T14:23:19+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 117 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('BFD9340B-3213-FBAE-7A77-3E9297D50984','18222773726','xuexuexue','helloworld') [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-06-02T14:24:27+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 117 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('16A55FE9-18DF-81CE-E786-47574C7B7492','18222773726','xuexuexue','helloworld') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2016-06-02T14:25:41+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 117 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('0F0AFA89-BB80-1265-8F5F-2296BD94F477','18222773726','xuexuexue','helloworld') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2016-06-02T14:29:08+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2016-06-02T14:29:20+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 116 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('63B026D8E7505D68D64884E83408D211','18222773726','xuexuexue','helloworld') [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2016-06-02T14:34:20+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-06-02T14:34:58+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=xuexuexue&user_nickname=helloworld
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 116 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('3F4EE0F4E2A3DB99706DA0EBFDAEB9EA','18222773726','xuexuexue','helloworld') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-06-02T14:35:28+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=nihao&user_nickname=helo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2016-06-02T14:38:20+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=nihao&user_nickname=helo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 116 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('495ECAEA4344F05D43868D57161A6F54','18222773726','nihao','helo') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-06-02T14:38:33+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=nihao&user_nickname=helo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 116 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('C44A87902C170601BDB123EED00EDAF7','18222773726','nihao','helo') [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-06-02T14:41:31+08:00 ] 127.0.0.1 /todolist/Home/User/SignUp?user_phoneNumber=18222773726&user_psw=nihao&user_nickname=helo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '18222773726' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 111 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('9ECFB6AFA3B561B77933AA19B6BB8B5F','18222773726','nihao','helo') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2016-06-02T15:11:11+08:00 ] 127.0.0.1 /todolist/Home/Task/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-06-02T15:13:16+08:00 ] 127.0.0.1 /todolist/Home/Task/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-06-02T15:13:30+08:00 ] 127.0.0.1 /todolist/Home/Task/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-06-02T15:13:48+08:00 ] 127.0.0.1 /todolist/Home/Index/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-06-02T15:14:38+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-06-02T15:14:38+08:00 ] 127.0.0.1 /todolist/Home/Index/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-06-02T15:14:57+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-06-02T15:16:05+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-06-02T15:16:31+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-06-02T15:18:16+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-06-02T15:18:16+08:00 ] 127.0.0.1 /todolist/Home/Index/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-06-02T15:19:59+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+
+[ 2016-06-02T15:19:59+08:00 ] 127.0.0.1 /todolist/Home/Index/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-06-02T15:20:00+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+
+[ 2016-06-02T15:20:09+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-06-02T15:20:17+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+
+[ 2016-06-02T15:20:19+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-06-02T15:20:24+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-06-02T15:20:37+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-06-02T15:21:26+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-06-02T15:21:43+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-06-02T15:21:49+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-06-02T15:21:49+08:00 ] 127.0.0.1 /todolist/Home/Index/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-06-02T15:21:50+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-06-02T15:25:17+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-06-02T15:25:17+08:00 ] 127.0.0.1 /todolist/Home/Index/testPost?UID=hjk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-06-02T15:25:20+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+
+[ 2016-06-02T15:56:19+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-06-02T15:56:21+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-06-02T15:57:16+08:00 ] 10.1.46.158 /todolist/Home/TaskAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+ERR: 无法加载控制器:TaskAdd
+
+[ 2016-06-02T15:58:53+08:00 ] 10.1.46.158 /todolist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-06-02T15:59:19+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-06-02T15:59:39+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-06-02T16:00:06+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-06-02T16:00:15+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-06-02T16:00:59+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask?UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-06-02T16:02:00+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-06-02T16:02:20+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-06-02T16:02:26+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-06-02T16:02:55+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-06-02T16:03:15+08:00 ] 10.1.46.158 /todolist/Home/Task/AddTask?&UID=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-06-02T16:03:42+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:04:07+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:04:11+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:04:12+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:04:45+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:05:03+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:05:39+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:06:10+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:06:17+08:00 ] 10.1.46.158 /todolist/Home/Index/tesetPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+ERR: 非法操作:tesetPost
+
+[ 2016-06-02T16:06:47+08:00 ] 10.1.46.158 /todolist/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-06-02T16:07:15+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-06-02T16:07:25+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+ERR: Think\Controller:http_post_json方法不存在！
+
+[ 2016-06-02T16:08:11+08:00 ] 10.1.33.164 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-06-02T16:08:11+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-06-02T16:09:11+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-06-02T16:09:56+08:00 ] 10.1.33.164 /todolist/Home/Task/AddTask?UID=hahahahaahahah
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-06-02T16:09:56+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-06-02T16:09:58+08:00 ] 10.1.33.164 /todolist/Home/Task/AddTask?UID=hahahahaahahah
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-06-02T16:09:58+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-06-02T16:09:59+08:00 ] 10.1.33.164 /todolist/Home/Task/AddTask?UID=hahahahaahahah
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-06-02T16:09:59+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-06-02T16:09:59+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-06-02T16:10:00+08:00 ] 10.1.33.164 /todolist/Home/Task/AddTask?UID=hahahahaahahah
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-06-02T16:10:00+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-06-02T16:10:01+08:00 ] 127.0.0.1 /todolist/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-06-02T16:10:01+08:00 ] 10.1.33.164 /todolist/Home/Task/AddTask?UID=hahahahaahahah
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-06-02T16:10:01+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-06-02T16:10:02+08:00 ] 10.1.33.164 /todolist/Home/Task/AddTask?UID=hahahahaahahah
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-06-02T16:10:02+08:00 ] 10.1.46.158 /todolist/Home/User/testPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
