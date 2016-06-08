@@ -82,7 +82,7 @@ class TaskController extends Controller {
             $ans = $taskInfoTable -> where($condition) -> find();
             if($ans !== false && $ans > 0){
                 $finished = I('finished');
-                $data['state'] = (($finished + 1) % 2) * 2;
+                $data['state'] = ($finished ^ 1) * 2;
                 $update = $taskInfoTable -> where($condition) -> data($data) -> save();
                 if($update !== false && $update == 1){
                     $result['isSuccess'] = true;
@@ -105,7 +105,7 @@ class TaskController extends Controller {
             $condition['createtime'] = $taskCreateTime;
             $ans = $taskInfoTable -> where($condition) -> find();
             if($ans !== false && $ans > 0){
-                $data['state'] = $ans['state'] + 1;
+                $data['state'] = ($ans['state'] & 2) + 1;
                 $delete = $taskInfoTable -> where($condition) -> data($data) -> save();
                 if($delete !== false && $delete == 1){
                     $result['isSuccess'] = true;
@@ -136,7 +136,7 @@ class TaskController extends Controller {
             //get all task model in database
             $taskInfoTable = M('taskinfo'.$UID);
             //all tasks not deleted
-            $ans = $taskInfoTable -> where('state = 0 or state = 1') ->select();
+            $ans = $taskInfoTable -> where('state = 0 or state = 2') ->select();
             if($ans === false){
                 echo json_encode($result);
                 return;
@@ -147,6 +147,7 @@ class TaskController extends Controller {
 
             //tasks from client
             $taskModelArr = I('TaskModelArr');
+            //echo json_encode($taskModelArr);
             //check tasks from client to database
             foreach($taskModelArr as &$taskModel){
                 $exist = array_key_exists($taskModel['createtime'], $taskModelInDatabase);
@@ -183,7 +184,7 @@ class TaskController extends Controller {
                     }
                 }
                 else{//insert to database
-                    $ans = $taskInfotTable -> where('createtime="'.$taskModel['createtime'].'"') -> find();
+                    $ans = $taskInfoTable -> where('createtime="'.$taskModel['createtime'].'"') -> find();
                     if($ans !== false && $ans == 0){
                         $data['title'] = $taskModel['title'];
                         $data['content'] = $taskModel['content'];

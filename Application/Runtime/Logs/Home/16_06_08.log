@@ -259,3 +259,386 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
 
+[ 2016-06-08T12:50:44+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 1 )  [ RunTime:0.0012s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 151 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2016-06-08T13:05:39+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 151 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-06-08T13:07:41+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 151 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2016-06-08T13:08:40+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-06-08T13:08:53+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 152 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-06-08T13:20:16+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: taskInfotTable D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 187 行.
+
+[ 2016-06-08T13:20:57+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: taskInfotTable D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 187 行.
+
+[ 2016-06-08T13:24:38+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[2016][title]=hello&TaskModelArr[2016][createtime]=2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: taskInfotTable D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 187 行.
+
+[ 2016-06-08T13:25:02+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[2016][title]=hello&TaskModelArr[2016][createtime]=2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="2016" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 190 行.
+NOTIC: [8] Undefined index: lastedittime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 192 行.
+NOTIC: [8] Undefined index: alerttime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 193 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 194 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 195 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,'2016',NULL,NULL,NULL,NULL)
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,'2016',NULL,NULL,NULL,NULL)
+
+[ 2016-06-08T13:25:22+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[2016][title]=hello&TaskModelArr[2016][createtime]=2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="2016" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 190 行.
+NOTIC: [8] Undefined index: lastedittime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 192 行.
+NOTIC: [8] Undefined index: alerttime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 193 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 194 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 195 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,'2016',NULL,NULL,NULL,NULL)
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,'2016',NULL,NULL,NULL,NULL)
+
+[ 2016-06-08T13:27:35+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[2016][title]=hello&TaskModelArr[2016][createtime]=2016&TaskModelArr[2016][content]=1&TaskModelArr[2016][lastedittime]=2&TaskModelArr[2016][alerttime]=1&TaskModelArr[2016][level]=1&TaskModelArr[2016][state]=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="2016" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello','1','2016','2','1','1','1') [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2016-06-08T13:29:17+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 153 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 187 行.
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 190 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+NOTIC: [8] Undefined index: lastedittime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 192 行.
+NOTIC: [8] Undefined index: alerttime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 193 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 194 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 195 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,NULL,NULL,NULL,NULL,NULL)
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,NULL,NULL,NULL,NULL,NULL)
+
+[ 2016-06-08T13:29:46+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 153 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 187 行.
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 190 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+NOTIC: [8] Undefined index: lastedittime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 192 行.
+NOTIC: [8] Undefined index: alerttime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 193 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 194 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 195 行.
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,NULL,NULL,NULL,NULL,NULL)
+ERR: 1048:Column 'content' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('hello',NULL,NULL,NULL,NULL,NULL,NULL)
+
+[ 2016-06-08T13:30:25+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0007s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 152 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2016-06-08T13:32:09+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0009s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 152 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, string given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2016-06-08T13:32:25+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 153 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 187 行.
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+NOTIC: [8] Undefined index: lastedittime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 192 行.
+NOTIC: [8] Undefined index: alerttime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 193 行.
+ERR: 1048:Column 'createtime' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','1',NULL,NULL,NULL,'1','1')
+ERR: 1048:Column 'createtime' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','1',NULL,NULL,NULL,'1','1')
+
+[ 2016-06-08T13:41:58+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 153 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 187 行.
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 189 行.
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 190 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+NOTIC: [8] Undefined index: lastedittime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 192 行.
+NOTIC: [8] Undefined index: alerttime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 193 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 194 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 195 行.
+ERR: 1048:Column 'title' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,NULL)
+ERR: 1048:Column 'title' cannot be null
+ [ SQL语句 ] : INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,NULL)
+
+[ 2016-06-08T13:46:20+08:00 ] 10.1.40.24 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="12345" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `taskinfo700a0d94dd539543bad0d3a237ae53b5` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','1','12345','1','1','1','1') [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 208 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002338s ]
+
