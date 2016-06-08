@@ -24,7 +24,7 @@ class TaskController extends Controller {
                 $data['lastedittime'] = $taskModel['lastedittime'];
                 $data['alerttime'] = $taskModel['alerttime'];
                 $data['level'] = $taskModel['level'];
-                $data['state'] = $taskModel['state'] / 2 % 2;
+                $data['state'] = $taskModel['state'];
                 
                 $insert = $taskInfoTable -> data($data) -> add();
                 if($insert !== false && $insert == 1){
@@ -56,7 +56,7 @@ class TaskController extends Controller {
                 $data['lastedittime'] = $taskModel['lastedittime'];
                 $data['alerttime'] = $taskModel['alerttime'];
                 $data['level'] = $taskModel['level'];
-                $data['state'] = $taskModel['state'] / 2;
+                $data['state'] = $taskModel['state'];
 
                 $condition['createtime'] = $taskModel['createtime'];
                 $update = $taskInfoTable -> where($condition) -> data($data) -> save();
@@ -105,7 +105,8 @@ class TaskController extends Controller {
             $condition['createtime'] = $taskCreateTime;
             $ans = $taskInfoTable -> where($condition) -> find();
             if($ans !== false && $ans > 0){
-                $delete = $taskInfoTable -> where($condition) -> delete();
+                $data['state'] = $ans['state'] + 1;
+                $delete = $taskInfoTable -> where($condition) -> data($data) -> save();
                 if($delete !== false && $delete == 1){
                     $result['isSuccess'] = true;
                 }
@@ -135,7 +136,7 @@ class TaskController extends Controller {
             //get all task model in database
             $taskInfoTable = M('taskinfo'.$UID);
             //all tasks not deleted
-            $ans = $taskInfoTable -> where('state = 0 or state = 2') ->select();
+            $ans = $taskInfoTable -> where('state = 0 or state = 1') ->select();
             if($ans === false){
                 echo json_encode($result);
                 return;
@@ -171,7 +172,7 @@ class TaskController extends Controller {
                         $data['lastedittime'] = $taskModel['lastedittime'];
                         $data['alerttime'] = $taskModel['alerttime'];
                         $data['level'] = $taskModel['level'];
-                        $data['state'] = $taskModel['state'] / 2;
+                        $data['state'] = $taskModel['state'];
 
                         $condition['createtime'] = $taskModel['createtime'];
                         $update = $taskInfoTable -> where($condition) -> data($data) -> save();
@@ -190,7 +191,7 @@ class TaskController extends Controller {
                         $data['lastedittime'] = $taskModel['lastedittime'];
                         $data['alerttime'] = $taskModel['alerttime'];
                         $data['level'] = $taskModel['level'];
-                        $data['state'] = $taskModel['state'] / 2 % 2;
+                        $data['state'] = $taskModel['state'];
                 
                         $insert = $taskInfoTable -> data($data) -> add();
                         if($insert == false || $insert == 0){
@@ -200,6 +201,7 @@ class TaskController extends Controller {
                     }   
                 }
             }
+
             //check tasks from database to client
             foreach($taskModelInDatabase as &$taskModelTmp){
                 $exist = array_key_exists($taskModelInDatabase['createtime'], $taskModelArr);
