@@ -94,9 +94,9 @@ class UserController extends Controller {
 
     function createTaskInfoTable($uid){
         $sql = "CREATE TABLE IF NOT EXISTS taskinfo$uid (
-        `title` varchar(100) NOT NULL PRIMARY KEY,
+        `title` varchar(100) NOT NULL,
         `content` varchar(200) NOT NULL,
-        `createtime` varchar(30) NOT NULL,
+        `createtime` varchar(30) NOT NULL PRIMARY KEY,
         `lastedittime` varchar(30) NOT NULL,
         `alerttime` varchar(30) NOT NULL,
         `level` int(11) NOT NULL,
@@ -113,29 +113,5 @@ class UserController extends Controller {
         }
         mysql_close($con);
         return true;
-    }
-    public function testPost(){
-        $url = "http://10.1.33.164/todolist/Home/Task/AddTask?UID=hahahahaahahah";
-        $jsonStr = json_encode(array('a' => 1, 'b' => 2));
-        echo $jsonStr;
-        list($returnCode, $returnContent) = $this->http_post_json($url, $jsonStr);
-    }
-    function http_post_json($url, $data_string) {
-
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            'Content-Type: application/json; charset=utf-8',
-            'Content-Length: '.strlen($data_string) )
-        );
-        ob_start();
-        curl_exec($ch);
-        $return_content = ob_get_contents();
-        ob_end_clean();
-
-        $return_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        return array($return_code, $return_content);
     }
 }
