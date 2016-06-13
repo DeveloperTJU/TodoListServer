@@ -62,7 +62,7 @@ class UserController extends Controller {
         $condition['uid'] = I('UID');
         $condition['password'] = I('user_oldPassword');
         $data['password'] = I('user_newPassword');
-        $ans = $userInfoTable->where($condition) -> save($data);
+        $ans = $userInfoTable->where($condition) -> data($data) -> save();
         if($ans !== false && $ans > 0){
             $result['isSuccess'] = true;
         }

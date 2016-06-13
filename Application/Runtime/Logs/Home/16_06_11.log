@@ -51,3 +51,1142 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
 
+[ 2016-06-11T15:55:28+08:00 ] 127.0.0.1 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[1][createtime]=2016-05-27%2012:04:03
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="20160606150700000" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 209 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002868s ]
+
+[ 2016-06-11T15:55:40+08:00 ] 127.0.0.1 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[1][createtime]=2016-05-27%2012:04:03
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( createtime="20160606150700000" ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 210 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2016-06-11T15:56:17+08:00 ] 127.0.0.1 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[2016-05-27%2012:04:03][title]=12345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: createtime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002512s ]
+
+[ 2016-06-11T16:30:50+08:00 ] 127.0.0.1 /todolist/index.php/Home/Task/SynchronizeTask?UID=700a0d94dd539543bad0d3a237ae53b5&TaskModelArr[2016-05-27%2012:04:03][title]=12345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="700a0d94dd539543bad0d3a237ae53b5" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `taskinfo700a0d94dd539543bad0d3a237ae53b5` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: lastedittime D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 162 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2016-06-11T16:35:28+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="6be4661b437d489d940f886888ef679e" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-06-11T16:36:06+08:00 ] 172.23.164.200 /todolist/index.php/Home/User/SignUp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '1' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 105 行.
+SQL: INSERT INTO `userinfo` (`uid`,`phonenumber`,`password`,`nickname`) VALUES ('9030ac83db86b85b03ec790e2c562bd2','1','c4ca4238a0b923820dcc509a6f75849b','Hui') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2016-06-11T16:36:13+08:00 ] 172.23.164.200 /todolist/index.php/Home/User/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `userinfo` WHERE `phonenumber` = '1' AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2016-06-11T16:36:14+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 147 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [8] Undefined variable: taskModel D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('123123','','2016-06-11 13:40:01.829','2016-06-11 13:40:01','','4','2') [ RunTime:0.0043s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [8] Undefined variable: taskModel D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('11','','2016-06-11 14:17:27.669','2016-06-11 14:17:27','','4','0') [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [8] Undefined variable: taskModel D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('111','','2016-06-11 14:17:28.333','2016-06-11 14:17:28','','4','0') [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [8] Undefined variable: taskModel D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','','2016-06-11 14:19:00.919','2016-06-11 14:19:00','','4','0') [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [8] Undefined variable: taskModel D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('2','','2016-06-11 14:21:20.285','2016-06-11 14:21:20','','4','0') [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [8] Undefined variable: taskModel D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','','2016-06-11 14:30:42.146','2016-06-11 14:30:42','','4','0') [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+NOTIC: [8] Undefined variable: taskModel D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 191 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="" ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('Qweqwe','','2016-06-11 14:53:12.420','2016-06-11 14:53:12','','4','0') [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 211 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-06-11T16:36:31+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2016-06-11T16:36:33+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0009s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-06-11T16:36:34+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-06-11T16:36:36+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2016-06-11T16:36:37+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0014s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2016-06-11T16:40:44+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-06-11T16:41:59+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-06-11T16:42:53+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-06-11T16:47:16+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0011s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-06-11T16:49:51+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: taskModelInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-06-11T16:51:45+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: taskModelInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 163 行.
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-06-11T16:53:18+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: taskModelInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 157 行.
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2016-06-11T16:54:33+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-06-11T16:57:24+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2016-06-11T16:59:01+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-06-11T17:02:03+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0003s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `title`='123123',`content`='',`lastedittime`='2016-06-11 13:40:01',`alerttime`='',`level`='4',`state`='2' WHERE `createtime` = '2016-06-11 13'4'0'123123'1.829' [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-06-11T17:02:48+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-06-11T17:02:57+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-06-11T17:03:39+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:53:12.420" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:53:12.420" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-06-11T17:05:29+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2016-06-11T17:05:39+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2016-06-11T17:06:55+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2016-06-11T17:07:24+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002579s ]
+
+[ 2016-06-11T17:07:56+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2016-06-11T17:09:26+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2016-06-11T17:10:13+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-06-11T17:11:08+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 13:40:01.829" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('123123','','2016-06-11 13:40:01.829','2016-06-11 13:40:01','','4','2') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:17:27.669" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('11','','2016-06-11 14:17:27.669','2016-06-11 14:17:27','','4','0') [ RunTime:0.0026s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:19:00.919" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','','2016-06-11 14:19:00.919','2016-06-11 14:19:00','','4','0') [ RunTime:0.0018s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:30:42.146" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','','2016-06-11 14:30:42.146','2016-06-11 14:30:42','','4','0') [ RunTime:0.0019s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:53:12.420" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('Qweqwe','','2016-06-11 14:53:12.420','2016-06-11 14:53:12','','4','0') [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2016-06-11T17:12:02+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 147 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 147 行.
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 13:40:01.829" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('123123','','2016-06-11 13:40:01.829','2016-06-11 13:40:01','','4','2') [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:17:27.669" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('11','','2016-06-11 14:17:27.669','2016-06-11 14:17:27','','4','0') [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:17:28.333" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('111','','2016-06-11 14:17:28.333','2016-06-11 14:17:28','','4','0') [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:19:00.919" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','','2016-06-11 14:19:00.919','2016-06-11 14:19:00','','4','0') [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:21:20.285" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('2','','2016-06-11 14:21:20.285','2016-06-11 14:21:20','','4','0') [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:30:42.146" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('1','','2016-06-11 14:30:42.146','2016-06-11 14:30:42','','4','0') [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: taskModelArrInDatabase D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 156 行.
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 14:53:12.420" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('Qweqwe','','2016-06-11 14:53:12.420','2016-06-11 14:53:12','','4','0') [ RunTime:0.0015s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 216 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-06-11T17:12:50+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SwitchTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:53:12.420' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='2' WHERE `createtime` = '2016-06-11 14:53:12.420' [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2016-06-11T17:13:08+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SwitchTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:21:20.285' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='2' WHERE `createtime` = '2016-06-11 14:21:20.285' [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2016-06-11T17:13:46+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SwitchTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:21:20.285' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='2' WHERE `createtime` = '2016-06-11 14:21:20.285' [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2016-06-11T17:14:26+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2016-06-11T17:16:01+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-06-11T17:17:22+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-06-11T17:17:38+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SwitchTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:30:42.146' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='2' WHERE `createtime` = '2016-06-11 14:30:42.146' [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2016-06-11T17:18:20+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/DeleteTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:53:12.420' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='3' WHERE `createtime` = '2016-06-11 14:53:12.420' [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-06-11T17:18:38+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002270s ]
+
+[ 2016-06-11T17:19:33+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-06-11T17:19:50+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/DeleteTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:53:12.420' LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='3' WHERE `createtime` = '2016-06-11 14:53:12.420' [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2016-06-11T17:20:05+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2016-06-11T17:20:38+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-06-11T17:20:55+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SwitchTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:21:20.285' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='2' WHERE `createtime` = '2016-06-11 14:21:20.285' [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2016-06-11T17:21:09+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2016-06-11T17:21:21+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-06-11T17:22:10+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-06-11T17:23:07+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SwitchTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:30:42.146' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='2' WHERE `createtime` = '2016-06-11 14:30:42.146' [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2016-06-11T17:24:12+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/AddTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 17:24:09.850' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `taskinfo9030ac83db86b85b03ec790e2c562bd2` (`title`,`content`,`createtime`,`lastedittime`,`alerttime`,`level`,`state`) VALUES ('Helloworld','','2016-06-11 17:24:09.850','2016-06-11 17:24:09','','4','0') [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-06-11T17:24:32+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 17:24:09.850" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2016-06-11T17:24:46+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( createtime="2016-06-11 17:24:09.850" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001565s ]
+
+[ 2016-06-11T17:25:09+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SwitchTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `userinfo` WHERE `uid` = '9030ac83db86b85b03ec790e2c562bd2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE `createtime` = '2016-06-11 14:53:12.420' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `taskinfo9030ac83db86b85b03ec790e2c562bd2` SET `state`='2' WHERE `createtime` = '2016-06-11 14:53:12.420' [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-06-11T17:25:27+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2016-06-11T17:28:30+08:00 ] 172.23.164.200 /todolist/index.php/Home/Task/SynchronizeTask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `userinfo` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UID D:\xampp\htdocs\todolist\Application\Home\Controller\TaskController.class.php 第 127 行.
+SQL: SELECT * FROM `userinfo` WHERE `uid` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `userinfo` WHERE ( uid="9030ac83db86b85b03ec790e2c562bd2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `taskinfo9030ac83db86b85b03ec790e2c562bd2` WHERE ( state = 0 or state = 2 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+

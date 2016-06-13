@@ -130,7 +130,7 @@ class TaskController extends Controller {
         $UID = I('UID');
         $userInfoTable = M('userinfo');
         $ans = $userInfoTable -> where('uid="'.$UID.'"') -> find();
-        if($ans !== false && $ans > 0){
+        if($ans !== false && $ans > 0){//find the user
             //get nickname
             $result['user_nickname'] = $ans['nickname'];
             //get all task model in database
@@ -142,40 +142,43 @@ class TaskController extends Controller {
                 return;
             }
             foreach($ans as &$taskModel){
-                $taskModelInDatabase[$taskModel['createtime']] = $taskModel;
+                $taskModelArrInDatabase[$taskModel['createtime']] = $taskModel;
             }
+            $taskModelArrInDatabaseKeys = array_keys($taskModelArrInDatabase);
 
             //tasks from client
-            $taskModelArr = I('TaskModelArr');
-            //echo json_encode($taskModelArr);
+            $taskModelArrInClient = I('TaskModelArr');
+            $taskModelArrInClientKeys = array_keys($taskModelArrInClient);
+
             //check tasks from client to database
-            foreach($taskModelArr as &$taskModel){
-                $exist = array_key_exists($taskModel['createtime'], $taskModelInDatabase);
+            foreach($taskModelArrInClientKeys as &$key){
+                $taskModelInClient = $taskModelArrInClient[$key];
+                $exist = array_key_exists($key, $taskModelArrInDatabase);
                 if($exist){
                     //task in database
-                    $taskModelTmp = $taskModelInDatabase['createtime'];
+                    $taskModelInDatabase = $taskModelArrInDatabase[$key];
 
-                    if($taskModel['lastedittime'] < $taskModelTmp['lastedittime']){
+                    if($taskModelInClient['lastedittime'] < $taskModelInDatabase['lastedittime']){
                         //return to client
-                        $data['title'] = $taskModelTmp['title'];
-                        $data['content'] = $taskModelTmp['content'];
-                        $data['createtime'] = $taskModelTmp['createtime'];
-                        $data['lastedittime'] = $taskModelTmp['lastedittime'];
-                        $data['alerttime'] = $taskModelTmp['alerttime'];
-                        $data['level'] = $taskModelTmp['level'];
-                        $data['state'] = $taskModelTmp['state'];
+                        $data['title'] = $taskModelInDatabase['title'];
+                        $data['content'] = $taskModelInDatabase['content'];
+                        $data['createtime'] = $taskModelInDatabase['createtime'];
+                        $data['lastedittime'] = $taskModelInDatabase['lastedittime'];
+                        $data['alerttime'] = $taskModelInDatabase['alerttime'];
+                        $data['level'] = $taskModelInDatabase['level'];
+                        $data['state'] = $taskModelInDatabase['state'];
 
                         $result['taskModelArr'][] = $data;
                     }
-                    else{//update to database
-                        $data['title'] = $taskModel['title'];
-                        $data['content'] = $taskModel['content'];
-                        $data['lastedittime'] = $taskModel['lastedittime'];
-                        $data['alerttime'] = $taskModel['alerttime'];
-                        $data['level'] = $taskModel['level'];
-                        $data['state'] = $taskModel['state'];
+                    else if($taskModelInClient['lastedittime'] > $taskModelInDatabase['lastedittime']){//update to database
+                        $data['title'] = $taskModelInClient['title'];
+                        $data['content'] = $taskModelInClient['content'];
+                        $data['lastedittime'] = $taskModelInClient['lastedittime'];
+                        $data['alerttime'] = $taskModelInClient['alerttime'];
+                        $data['level'] = $taskModelInClient['level'];
+                        $data['state'] = $taskModelInClient['state'];
 
-                        $condition['createtime'] = $taskModel['createtime'];
+                        $condition['createtime'] = $taskModelInClient['createtime'];
                         $update = $taskInfoTable -> where($condition) -> data($data) -> save();
                         if($update == false || $update == 0){
                             echo json_encode($result);
@@ -184,44 +187,50 @@ class TaskController extends Controller {
                     }
                 }
                 else{//insert to database
-                    $ans = $taskInfoTable -> where('createtime="'.$taskModel['createtime'].'"') -> find();
-                    if($ans !== false && $ans == 0){
-                        $data['title'] = $taskModel['title'];
-                        $data['content'] = $taskModel['content'];
-                        $data['createtime'] = $taskModel['createtime'];
-                        $data['lastedittime'] = $taskModel['lastedittime'];
-                        $data['alerttime'] = $taskModel['alerttime'];
-                        $data['level'] = $taskModel['level'];
-                        $data['state'] = $taskModel['state'];
-                
-                        $insert = $taskInfoTable -> data($data) -> add();
-                        if($insert == false || $insert == 0){
-                            echo json_encode($result);
-                            return;
+                    $ans = $taskInfoTable -> where('createtime="'.$taskModelInClient['createtime'].'"') -> find();
+                    if($ans !== false){
+                        if($ans == 0){
+                            $data['title'] = $taskModelInClient['title'];
+                            $data['content'] = $taskModelInClient['content'];
+                            $data['createtime'] = $taskModelInClient['createtime'];
+                            $data['lastedittime'] = $taskModelInClient['lastedittime'];
+                            $data['alerttime'] = $taskModelInClient['alerttime'];
+                            $data['level'] = $taskModelInClient['level'];
+                            $data['state'] = $taskModelInClient['state'];
+                        
+                            $insert = $taskInfoTable -> data($data) -> add();
+                            if($insert == false || $insert == 0){
+                                echo json_encode($result);
+                                return;
+                            }
                         }
+                    }
+                    else{
+                        echo json_encode($result);
+                        return;
                     }   
                 }
             }
 
             //check tasks from database to client
-            foreach($taskModelInDatabase as &$taskModelTmp){
-                $exist = array_key_exists($taskModelInDatabase['createtime'], $taskModelArr);
+            foreach($taskModelArrInDatabaseKeys as &$key){
+                $taskModelInDatabase = $taskModelArrInDatabase[$key];
+                $exist = array_key_exists($key, $taskModelArrInClient);
                 if(!$exist){
                     //return to client
-                    $data['title'] = $taskModelTmp['title'];
-                    $data['content'] = $taskModelTmp['content'];
-                    $data['createtime'] = $taskModelTmp['createtime'];
-                    $data['lastedittime'] = $taskModelTmp['lastedittime'];
-                    $data['alerttime'] = $taskModelTmp['alerttime'];
-                    $data['level'] = $taskModelTmp['level'];
-                    $data['state'] = $taskModelTmp['state'];
+                    $data['title'] = $taskModelInDatabase['title'];
+                    $data['content'] = $taskModelInDatabase['content'];
+                    $data['createtime'] = $taskModelInDatabase['createtime'];
+                    $data['lastedittime'] = $taskModelInDatabase['lastedittime'];
+                    $data['alerttime'] = $taskModelInDatabase['alerttime'];
+                    $data['level'] = $taskModelInDatabase['level'];
+                    $data['state'] = $taskModelInDatabase['state'];
 
                     $result['taskModelArr'][] = $data;
                 }
             }
             $result['isSuccess'] = true;
         }
-
         echo json_encode($result);
     }
 
