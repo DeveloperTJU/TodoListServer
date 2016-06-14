@@ -99,8 +99,29 @@ class UserController extends Controller {
         `createtime` varchar(30) NOT NULL PRIMARY KEY,
         `lastedittime` varchar(30) NOT NULL,
         `alerttime` varchar(30) NOT NULL,
+        `timestamp` varchar(30) NOT NULL,
         `level` int(11) NOT NULL,
         `state` int(11) NOT NULL
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
+        $con = mysql_connect('localhost', 'root', '');
+        if($con === false){
+            die('Could not connect: '.mysql_error());
+            return false;
+        }
+        mysql_select_db('todolist', $con);
+        if(!mysql_query($sql, $con)){
+            die("Could not create this table, .mysql_errnor()：".mysql_errno()."mysql_error()：".mysql_error());
+        }
+        mysql_close($con);
+        return true;
+    }
+    
+    function createUserInfoTable(){
+        $sql = "CREATE TABLE IF NOT EXISTS userinfo (
+        `uid` varchar(32) NOT NULL PRIMARY KEY,
+        `phonenumber` varchar(20) NOT NULL,
+        `password` varchar(64) NOT NULL,
+        `nickname` varchar(50) NOT NULL
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
         $con = mysql_connect('localhost', 'root', '');
         if($con === false){

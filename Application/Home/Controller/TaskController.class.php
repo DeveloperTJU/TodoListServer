@@ -23,6 +23,7 @@ class TaskController extends Controller {
                 $data['createtime'] = $taskModel['createtime'];
                 $data['lastedittime'] = $taskModel['lastedittime'];
                 $data['alerttime'] = $taskModel['alerttime'];
+                $data['timestamp'] = $taskModel['timestamp'];
                 $data['level'] = $taskModel['level'];
                 $data['state'] = $taskModel['state'];
                 
@@ -55,6 +56,7 @@ class TaskController extends Controller {
                 $data['content'] = $taskModel['content'];
                 $data['lastedittime'] = $taskModel['lastedittime'];
                 $data['alerttime'] = $taskModel['alerttime'];
+                $data['timestamp'] = $taskModel['timestamp'];
                 $data['level'] = $taskModel['level'];
                 $data['state'] = $taskModel['state'];
 
@@ -68,31 +70,7 @@ class TaskController extends Controller {
         echo json_encode($result);
     }
 
-    //UID, taskID, finished(0~1)
-    //--> isSuccess
-    public function SwitchTask(){
-    	$result = array(
-    		'isSuccess' => false
-    	);
-        $UID = I('UID');
-        if($this->isValidUID($UID)){
-            $taskInfoTable = M('taskinfo'.$UID);
-            $taskCreateTime = I('createtime');
-            $condition['createtime'] = $taskCreateTime;
-            $ans = $taskInfoTable -> where($condition) -> find();
-            if($ans !== false && $ans > 0){
-                $finished = I('finished');
-                $data['state'] = ($finished ^ 1) * 2;
-                $update = $taskInfoTable -> where($condition) -> data($data) -> save();
-                if($update !== false && $update == 1){
-                    $result['isSuccess'] = true;
-                }
-            }
-        }
-        echo json_encode($result);
-    }
-
-    //UID, TaskID
+    //UID, TaskID, timestamp
     //--> isSuccess
     public function DeleteTask(){
     	$result = array(
@@ -106,6 +84,7 @@ class TaskController extends Controller {
             $ans = $taskInfoTable -> where($condition) -> find();
             if($ans !== false && $ans > 0){
                 $data['state'] = ($ans['state'] & 2) + 1;
+                $data['timestamp'] = I('timestamp');
                 $delete = $taskInfoTable -> where($condition) -> data($data) -> save();
                 if($delete !== false && $delete == 1){
                     $result['isSuccess'] = true;
@@ -115,14 +94,20 @@ class TaskController extends Controller {
         echo json_encode($result);
     }
 
-    //UID, array{TaskModel}
+    //UID, TaskModelArr
     //--> isSuccess, user_nickname, array{TaskModel}
     public function SynchronizeTask(){
     	$result = array(
     		'isSuccess' => false,
     		'user_nickname' => '',
-            'taskModelArr' => array()
+            'taskModelArr' => array(
+                    'delete' => array(),
+                    'insert' => array(),
+                    'update' => array()
+            )
     	);
+        // echo json_encode($result);
+        // return;
         $userInfoTable = M('userinfo');
         $condition['uid'] = $UID;
         $ans = $userInfoTable -> where($condition) -> find();
@@ -158,23 +143,25 @@ class TaskController extends Controller {
                     //task in database
                     $taskModelInDatabase = $taskModelArrInDatabase[$key];
 
-                    if($taskModelInClient['lastedittime'] < $taskModelInDatabase['lastedittime']){
+                    if($taskModelInClient['timestamp'] < $taskModelInDatabase['timestamp']){
                         //return to client
                         $data['title'] = $taskModelInDatabase['title'];
                         $data['content'] = $taskModelInDatabase['content'];
                         $data['createtime'] = $taskModelInDatabase['createtime'];
                         $data['lastedittime'] = $taskModelInDatabase['lastedittime'];
                         $data['alerttime'] = $taskModelInDatabase['alerttime'];
+                        $data['timestamp'] = $taskModelInDatabase['timestamp'];
                         $data['level'] = $taskModelInDatabase['level'];
                         $data['state'] = $taskModelInDatabase['state'];
 
-                        $result['taskModelArr'][] = $data;
+                        $result['taskModelArr']['update'][] = $data;
                     }
                     else if($taskModelInClient['lastedittime'] > $taskModelInDatabase['lastedittime']){//update to database
                         $data['title'] = $taskModelInClient['title'];
                         $data['content'] = $taskModelInClient['content'];
                         $data['lastedittime'] = $taskModelInClient['lastedittime'];
                         $data['alerttime'] = $taskModelInClient['alerttime'];
+                        $data['timestamp'] = $taskModelInClient['timestamp'];
                         $data['level'] = $taskModelInClient['level'];
                         $data['state'] = $taskModelInClient['state'];
 
@@ -186,23 +173,37 @@ class TaskController extends Controller {
                         }
                     }
                 }
-                else{//insert to database
+                else{
                     $ans = $taskInfoTable -> where('createtime="'.$taskModelInClient['createtime'].'"') -> find();
                     if($ans !== false){
-                        if($ans == 0){
-                            $data['title'] = $taskModelInClient['title'];
-                            $data['content'] = $taskModelInClient['content'];
-                            $data['createtime'] = $taskModelInClient['createtime'];
-                            $data['lastedittime'] = $taskModelInClient['lastedittime'];
-                            $data['alerttime'] = $taskModelInClient['alerttime'];
-                            $data['level'] = $taskModelInClient['level'];
-                            $data['state'] = $taskModelInClient['state'];
-                        
+                        $data['title'] = $taskModelInClient['title'];
+                        $data['content'] = $taskModelInClient['content'];
+                        $data['createtime'] = $taskModelInClient['createtime'];
+                        $data['lastedittime'] = $taskModelInClient['lastedittime'];
+                        $data['alerttime'] = $taskModelInClient['alerttime'];
+                        $data['timestamp'] = $taskModelInClient['timestamp'];
+                        $data['level'] = $taskModelInClient['level'];
+                        $data['state'] = $taskModelInClient['state'];
+
+                        if($ans == 0){//insert to database
                             $insert = $taskInfoTable -> data($data) -> add();
                             if($insert == false || $insert == 0){
                                 echo json_encode($result);
                                 return;
                             }
+                        }
+                        else{
+                            if($taskModelInClient['state'] % 2 == 0){
+                                $result['taskModelArr']['delete'][] = $taskModelInClient['createtime'];
+                            }
+                            else if($taskModelInClient['timestamp'] < $ans['timestamp']){
+                                $update = $taskInfoTable -> where('createtime="'.$taskModelInClient['createtime'].'"') -> data($data) -> save();
+                                if($update == false || $update == 0){
+                                    echo json_encode($result);
+                                    return;
+                                }
+                            }
+                            
                         }
                     }
                     else{
@@ -223,10 +224,11 @@ class TaskController extends Controller {
                     $data['createtime'] = $taskModelInDatabase['createtime'];
                     $data['lastedittime'] = $taskModelInDatabase['lastedittime'];
                     $data['alerttime'] = $taskModelInDatabase['alerttime'];
+                    $data['timestamp'] = $taskModelInDatabase['timestamp'];
                     $data['level'] = $taskModelInDatabase['level'];
                     $data['state'] = $taskModelInDatabase['state'];
 
-                    $result['taskModelArr'][] = $data;
+                    $result['taskModelArr']['insert'][] = $data;
                 }
             }
             $result['isSuccess'] = true;

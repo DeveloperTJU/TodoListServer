@@ -1,0 +1,12 @@
+[ 2016-06-13T14:25:38+08:00 ] 10.1.32.54 /todolist/todolist/index.php/Home/User/SignUp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+ERR: 无法加载模块:Todolist
+
+[ 2016-06-13T14:26:21+08:00 ] 10.1.32.54 /todolist/todolist/index.php/Home/User/SignUp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+ERR: 无法加载模块:Todolist
+
