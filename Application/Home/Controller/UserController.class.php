@@ -116,20 +116,29 @@ class UserController extends Controller {
         return true;
     }
     
-    function createUserInfoTable(){
-        $sql = "CREATE TABLE IF NOT EXISTS userinfo (
-        `uid` varchar(32) NOT NULL PRIMARY KEY,
-        `phonenumber` varchar(20) NOT NULL,
-        `password` varchar(64) NOT NULL,
-        `nickname` varchar(50) NOT NULL
-        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
+    function createDatabaseAndUserInfoTable(){
         $con = mysql_connect('localhost', 'root', '');
         if($con === false){
             die('Could not connect: '.mysql_error());
             return false;
         }
-        mysql_select_db('todolist', $con);
-        if(!mysql_query($sql, $con)){
+        //create database
+        $sql1 = "CREATE DATABASE todolisttest";
+        if (!mysql_query($sql1,$con)){
+            die("Could not create this database, .mysql_errnor()：".mysql_errno()."mysql_error()：".mysql_error());
+            mysql_close($con);
+            return false;
+        }
+
+        //create user infomation table
+        $sql2 = "CREATE TABLE IF NOT EXISTS userinfo (
+        `uid` varchar(32) NOT NULL PRIMARY KEY,
+        `phonenumber` varchar(20) NOT NULL,
+        `password` varchar(64) NOT NULL,
+        `nickname` varchar(50) NOT NULL
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
+        mysql_select_db('todolisttest', $con);
+        if(!mysql_query($sql2, $con)){
             die("Could not create this table, .mysql_errnor()：".mysql_errno()."mysql_error()：".mysql_error());
         }
         mysql_close($con);
