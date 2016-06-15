@@ -2,9 +2,6 @@
 namespace Home\Controller;
 use Think\Controller;
 class UserController extends Controller {
-    public function test(){
-        echo phpversion();
-    }
 	//user_phoneNumber, user_psw
 	//--> isSuccess, UID
     public function Login(){
@@ -123,21 +120,21 @@ class UserController extends Controller {
             return false;
         }
         //create database
-        $sql1 = "CREATE DATABASE todolisttest";
+        $sql1 = "CREATE DATABASE todolist";
         if (!mysql_query($sql1,$con)){
             die("Could not create this database, .mysql_errnor()：".mysql_errno()."mysql_error()：".mysql_error());
             mysql_close($con);
             return false;
         }
 
-        //create user infomation table
+        //create user information table
         $sql2 = "CREATE TABLE IF NOT EXISTS userinfo (
         `uid` varchar(32) NOT NULL PRIMARY KEY,
         `phonenumber` varchar(20) NOT NULL,
         `password` varchar(64) NOT NULL,
         `nickname` varchar(50) NOT NULL
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
-        mysql_select_db('todolisttest', $con);
+        mysql_select_db('todolist', $con);
         if(!mysql_query($sql2, $con)){
             die("Could not create this table, .mysql_errnor()：".mysql_errno()."mysql_error()：".mysql_error());
         }
