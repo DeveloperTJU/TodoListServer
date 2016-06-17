@@ -1,4 +1,4 @@
-background program£º
+background program
 thinkphp_3.2.3
 php 5.6.3
-Apache
+Apache 2.4.10
