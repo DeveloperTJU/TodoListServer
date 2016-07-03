@@ -19,7 +19,28 @@ class UserController extends Controller {
         }
         echo json_encode($result);
     }
-
+    //user_phoneNumber, user_psw
+    //--> isSuccess, UID
+    public function FindPassword(){
+        $result = array(
+            'isSuccess' => false,
+            'UID' => ''
+        );
+        $userInfoTable = M('userinfo');
+        $phoneNumber = I('user_phoneNumber');
+        $condition['phonenumber'] = $phoneNumber;
+        
+        $ans = $userInfoTable->where($condition)->find();
+        if($ans !== false && $ans > 0){
+            $data['password'] = I('user_psw');
+            if($userInfoTable -> where($condition) -> data($data) -> save() !== false){
+                    $result['isSuccess'] = true;
+                    $result['UID'] = $ans['uid'];
+            }
+        }
+        echo json_encode($result);
+    }
+    
     //user_phoneNumber, user_psw, user_nickname
     //--> isSuccess, UID
     public function SignUp(){

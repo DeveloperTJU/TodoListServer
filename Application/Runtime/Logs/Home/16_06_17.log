@@ -1,0 +1,9 @@
+[ 2016-06-17T13:05:19+08:00 ] 127.0.0.1 /todolist/index.php/Home/User/createDatabaseAndUserInfoTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\todolist\Application\Home\Controller\UserController.class.php 第 117 行.
+
